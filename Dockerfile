@@ -1,4 +1,4 @@
-FROM circleci/node:8.10-stretch
+FROM circleci/node:10.17-stretch
 
 # update npm
 RUN sudo npm i -g npm@6.8.0
