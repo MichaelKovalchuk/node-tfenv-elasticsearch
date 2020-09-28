@@ -1,7 +1,4 @@
-FROM circleci/node:10.17-stretch
-
-# update npm
-RUN sudo npm i -g npm@6.8.0
+FROM circleci/node:12-stretch
 
 # install aws-sdk
 RUN sudo apt-get -y -qq update && sudo apt-get -y -qq install python3
