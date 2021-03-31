@@ -1,4 +1,4 @@
-FROM circleci/node:12-stretch
+FROM circleci/node:14-stretch
 
 # install aws-sdk
 RUN sudo apt-get -y -qq update && sudo apt-get -y -qq install python3
